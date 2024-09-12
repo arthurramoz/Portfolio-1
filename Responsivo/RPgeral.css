@@ -1,0 +1,120 @@
+/* ----------------- SECTION 1 -----------------*/
+@media (max-width: 1550px) {
+  .section-1 .text-section-1 h1 {
+    font-size: 60px;
+  }
+  .section-1 .text-section-1 a {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1150px) {
+  section.section-1 {
+    background-size: 150%;
+  }
+  .section-1 h1 {
+    font-size: 50px;
+  }
+  .section-1 a,
+  i {
+    font-size: 20px;
+  }
+  .section-1 .text-section-1 h1 {
+    font-size: 50px;
+  }
+  .section-1 .text-section-1 a {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1020px) {
+  section.section-1 {
+    background-size: 170%;
+  }
+}
+
+@media (max-width: 900px) {
+  section.section-1 {
+    background-size: 180%;
+  }
+}
+
+@media (max-width: 840px) {
+  section.section-1 {
+    background-size: 220%;
+  }
+}
+
+@media (max-width: 700px) {
+  section.section-1 {
+    background-size: 300%;
+  }
+  .section-1 .text-section-1 {
+    width: 80%;
+  }
+  .section-1 .text-section-1 h1 {
+    width: 80%;
+  }
+}
+/* ----------------- FOOTER -----------------*/
+
+@media (max-width: 1400px) {
+  .footer .center .footer-left {
+    width: 1420px;
+  }
+}
+
+@media (max-width: 1085px) {
+  .footer .center .footer-left {
+    width: 2120px;
+    padding-right: 0;
+  }
+
+  .footer .center .footer-mid {
+    width: 1220px;
+  }
+}
+
+@media (max-width: 900px) {
+  .footer {
+    background-color: var(--footer-cor);
+    min-height: 40%;
+  }
+  .footer .center {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100%;
+  }
+  .footer .center .foot-all {
+    max-height: 150px;
+    padding: 0;
+    padding-top: 50px;
+  }
+  .footer .center .footer-left {
+    width: 58%;
+    padding-left: 30px;
+  }
+  .footer .center .footer-mid {
+    width: 40%;
+  }
+  .footer .center .footer-right {
+    padding: 0;
+    width: 100%;
+    max-height: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer .center .foot-all {
+    padding-right: 0;
+  }
+  .footer .center {
+    width: 90%;
+    gap: 10px;
+  }
+  .footer2 .center p {
+    font-size: 15px;
+  }
+}

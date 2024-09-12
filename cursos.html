@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/cursos.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./Responsivo/RPcursos.css" />
+    <link rel="stylesheet" href="./Responsivo/RPgeral.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav class="center">
+        <div class="header-high">
+          <a class="" href="index.html">Home</a>
+          <a class="in-this" href="#">Meus Cursos</a>
+          <a class="" href="certificados.html">Minhas Certificações</a>
+        </div>
+        <div class="header-down">
+          <a class="inicio" href="#section-1">Inicio</a>
+          <a class="meus-cursos" href="#section-2">Meus Cursos</a>
+        </div>
+      </nav>
+    </header>
+
+    <section class="section-1" id="section-1">
+      <nav class="center">
+        <div class="text-section-1">
+          <h1>Meus Cursos</h1>
+          <a class="text-animation-1" href="#section-2"
+            >Ir Para Meus Cursos <i class="fa-solid fa-chevron-down"></i
+          ></a>
+        </div>
+      </nav>
+    </section>
+
+    <section class="section-2" id="section-2">
+      <nav class="center">
+        <div class="left">
+          <p id="superior" onclick="showContent('superior')">Ensino Superior</p>
+          <p id="ingles" onclick="showContent('ingles')">Curso de Inglês</p>
+          <p id="medio" onclick="showContent('medio')">Ensino Médio</p>
+          <p id="livres" onclick="showContent('livres')">Cursos Livres</p>
+        </div>
+        <div class="right" id="content"></div>
+      </nav>
+    </section>
+
+    <footer class="footer">
+      <div class="center">
+        <div class="foot-all footer-left">
+          <h2 style="font-weight: bold">Contato</h2>
+          <p><i class="fa-solid fa-circle"></i> +55 11 94100-6962</p>
+          <p>
+            <i class="fa-solid fa-circle"></i>
+            arthurmoreiraramos550sp@gmail.com
+          </p>
+        </div>
+        <div class="foot-all footer-mid">
+          <h2 style="font-weight: bold">Navegação</h2>
+          <a href="index.html"><i class="fa-solid fa-caret-right"></i> Home</a>
+          <a href="#"><i class="fa-solid fa-caret-right"></i> Meus Cursos</a>
+          <a href="certificados.html"
+            ><i class="fa-solid fa-caret-right"></i> Minhas Certificações</a
+          >
+        </div>
+        <div class="foot-all footer-right">
+          <h2 style="font-weight: bold">Redes Sociais</h2>
+          <div class="brands">
+            <a
+              target="_blank"
+              href="https://github.com/arthurramoz?tab=repositories"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/arthur-moreira-ramos"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a
+              target="_blank"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=arthurmoreiraramos550sp@gmail.com&su=Seu%20Assunto"
+              ><i class="fa-brands fa-google"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <footer class="footer2">
+      <div class="center">
+        <p class="footer__copyright">
+          &copy; Copyright by
+          <a
+            class="footer__link twitter-link"
+            target="_blank"
+            href="https://www.linkedin.com/in/arthur-moreira-ramos"
+            >Arthur Moreira Ramos</a
+          >. Todos direitos reservados. Mogi das Cruzes, São Paulo. 08740-570.
+        </p>
+      </div>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/d586e6a03d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/cursos.js"></script>
+  </body>
+</html>

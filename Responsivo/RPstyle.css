@@ -1,0 +1,175 @@
+@media (max-width: 1300px) {
+  section.section-1 {
+    background-size: 150%;
+  }
+  section.section-1 h1 {
+    font-size: 60px;
+  }
+
+  .section-2 {
+    padding: 70px 30px;
+  }
+
+  .section-2 .text-section-2 .projeto-1 {
+    gap: 20px;
+  }
+  .container-estudo-1:hover i {
+    transform: scale(1.2);
+  }
+  .container-estudo-2:hover i {
+    transform: scale(1.2);
+  }
+  .container-estudo-3:hover i:first-child {
+    transform: scale(1.1);
+  }
+  .container-estudo-3:hover i:last-child {
+    transform: scale(1.1);
+  }
+  .container-estudo-1 .estudo-left h3 {
+    font-size: 14px;
+  }
+  .container-estudo-2 .estudo-left h3 {
+    font-size: 14px;
+  }
+  .container-estudo-3 .estudo-left h3 {
+    font-size: 14px;
+    width: 70%;
+  }
+  .container-estudo-1 .estudo-left p {
+    width: 30%;
+  }
+  .container-estudo-2 .estudo-left p {
+    width: 30%;
+  }
+  .container-estudo-3 .estudo-left p {
+    width: 30%;
+  }
+  .container-estudo-1 .estudo-left h2 {
+    font-size: 40px;
+  }
+  .container-estudo-2 .estudo-left h2 {
+    font-size: 40px;
+  }
+  .container-estudo-3 .estudo-left h2 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 1220px) {
+  .section-1 .text-section-1 h1 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .section-1 .text-section-1 h1 {
+    font-size: 50px;
+  }
+  .text-section-3 p {
+    font-size: 18px;
+  }
+  .text-section-3 h1 {
+    font-size: 40px;
+  }
+  .container-estudo-titulo h1 {
+    font-size: 40px;
+  }
+  .container-estudo {
+    min-width: 600px;
+    height: 300px;
+  }
+  .footer .center .foot-all h2 {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .section-3 {
+    height: 800px;
+    flex-direction: column;
+  }
+  .section-3 .text-section-3 {
+    width: 70%;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .container-estudo-titulo h1 {
+    text-align: center;
+  }
+  .section-3 .text-section2-3 {
+    padding-top: 10px;
+  }
+  .footer .center .foot-all {
+    padding-right: 0;
+  }
+  .footer .center {
+    width: 90%;
+    gap: 10px;
+  }
+  .footer2 .center p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 866px) {
+  .section-2 {
+    padding: 70px 20px;
+    width: 90%;
+  }
+  .projeto-1 .card {
+    width: 250px;
+    height: 220px;
+  }
+  .projeto-1 .card-details i {
+    left: 25px;
+  }
+  .section-2 .text-section-2 .projeto-1 {
+    margin-top: 50px;
+  }
+  .section-3 {
+    height: 900px;
+    flex-direction: column;
+  }
+  .section-3 .text-section-3 {
+    width: 70%;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .container-estudo-titulo h1 {
+    text-align: center;
+  }
+  .section-3 .text-section2-3 {
+    padding-top: 10px;
+  }
+  .container-estudo {
+    min-width: 500px;
+  }
+  .container-estudo-1 .estudo-left h2 {
+    font-size: 35px;
+  }
+  .container-estudo-2 .estudo-left h2 {
+    font-size: 35px;
+  }
+  .container-estudo-3 .estudo-left h2 {
+    font-size: 30px;
+  }
+  .container-estudo-3 .estudo-left h3 {
+    font-size: 14px;
+    width: 70%;
+  }
+  .container-estudo-3 .estudo-right i {
+    font-size: 120px;
+  }
+}
+@media (max-width: 640px) {
+  .section-2 {
+    width: 70%;
+  }
+  .projeto-1 .card-best {
+    margin-top: 30px;
+  }
+  .projeto-1 .card {
+    width: 250px;
+    height: 220px;
+  }
+}

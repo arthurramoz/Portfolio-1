@@ -1,0 +1,72 @@
+@media (max-width: 1050px) {
+  .section-2 .right {
+    padding: 0;
+  }
+  .card-medio h2 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 970px) {
+  .card-superior p {
+    font-size: 18px;
+  }
+  .dot {
+    height: 5px;
+    width: 5px;
+  }
+  .right .card-livre .livre1,
+  .livre2,
+  .livre3,
+  .livre4,
+  .livre5 p {
+    font-size: 19px;
+  }
+
+  .right .card-livre .livre1 img,
+  .livre2 img,
+  .livre3 img,
+  .livre4 img,
+  .livre5 img {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .section-2 .center {
+    gap: 50px;
+  }
+  .right .card-superior {
+    padding: 50px;
+  }
+  .card-superior p {
+    text-align: center;
+  }
+  .card-superior img {
+    max-width: 200px;
+  }
+  .card-ingles img {
+    max-width: 200px;
+  }
+  .card-medio img {
+    max-width: 200px;
+  }
+  .card-livre img {
+    max-width: 200px;
+  }
+}
+
+/* ---- FOOTER 1 ---- */
+
+@media (max-width: 1000px) {
+  .footer .center .foot-all {
+    padding-right: 0;
+  }
+  .footer .center {
+    width: 90%;
+    gap: 10px;
+  }
+  .footer2 .center p {
+    font-size: 15px;
+  }
+}

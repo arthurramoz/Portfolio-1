@@ -1,0 +1,57 @@
+@media (max-width: 1550px) {
+  /* <------> Section 2 <------> */
+
+  section.section-2 {
+    min-height: 2000px;
+  }
+
+  /* ---- CERTIFICACAO 1 ---- */
+
+  .section-2 .certificacao1 {
+    padding: 200px 0;
+  }
+  .certificacao1 img {
+    max-width: 420px;
+  }
+  .certificacao1 h1 {
+    font-size: 18px;
+  }
+  .certificacao1 p {
+    font-size: 17px;
+  }
+  .certificacao1 button {
+    font-size: 15px;
+    height: 35px;
+  }
+
+  /* ---- CERTIFICACAO 2 ---- */
+
+  .certificacao2 img {
+    max-width: 420px;
+  }
+  .certificacao2 h1 {
+    font-size: 18px;
+  }
+  .certificacao2 p {
+    font-size: 17px;
+  }
+  .certificacao2 button {
+    font-size: 15px;
+    height: 35px;
+  }
+}
+
+/* ---- FOOTER 1 ---- */
+
+@media (max-width: 1000px) {
+  .footer .center .foot-all {
+    padding-right: 0;
+  }
+  .footer .center {
+    width: 90%;
+    gap: 10px;
+  }
+  .footer2 .center p {
+    font-size: 15px;
+  }
+}
