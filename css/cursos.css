@@ -24,7 +24,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
-  will-change: contents;
 }
 
 html,
@@ -71,6 +70,7 @@ header nav.center {
   font-size: 16px;
   display: inline-block;
   transition: transform 0.3s ease;
+  will-change: contents;
   color: var(--texto2-cor);
 }
 
@@ -91,6 +91,7 @@ header nav.center {
   font-size: 16px;
   display: inline-block;
   transition: transform 0.3s ease;
+  will-change: contents;
   color: var(--texto2-cor);
 }
 
@@ -103,7 +104,7 @@ header nav.center {
 section.section-1 {
   width: 100%;
   height: 70%;
-  background-image: url("../img/background.png");
+  background-image: url("../img/background.webp");
   background-size: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -136,6 +137,7 @@ section.section-1 {
   color: var(--texto2-cor);
   display: inline-block;
   transition: transform 0.5s ease;
+  will-change: contents;
 }
 
 .section-1 .text-section-1 a:hover {
@@ -272,6 +274,7 @@ section.section-1 {
   background-color: rgb(212, 0, 0);
   margin-bottom: 10px;
   transition: transform 0.3s ease;
+  will-change: contents;
 }
 .card-ingles button:hover {
   transform: scale(1.2);
@@ -533,6 +536,7 @@ ul {
   border-radius: 10px;
   background-color: #b3d4fc;
   animation: pulse 1.5s infinite ease-in-out;
+  will-change: transform, background-color;
 }
 
 .dot:last-child {

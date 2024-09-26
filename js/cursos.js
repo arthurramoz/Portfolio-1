@@ -44,7 +44,7 @@ function showContent(tipoCurso) {
   if (tipoCurso === "superior") {
     content = `
         <div class="card-superior">
-          <img src="./img/logo_fatec_pb.png" />
+          <img src="./img/logo_fatec_pb.webp" loading="lazy"/>
           <p>Análise e Desenvolvimento de Sistemas</p>
           <p>Cursando 3° Semestre</p>
           <section class="dots-container">
@@ -57,7 +57,7 @@ function showContent(tipoCurso) {
   } else if (tipoCurso === "ingles") {
     content = `
         <div class="card-ingles">
-          <img src="./img/culturaInglesa.png" />
+          <img src="./img/culturaInglesa.webp" loading="lazy"/>
           <p>Estudando desde 01/2023</p>
           <p>Nível I1</p>
           <section class="dots-container">
@@ -79,7 +79,7 @@ function showContent(tipoCurso) {
     content = `
   <div class="card-livre">
     <div class="livre1">
-      <img src="./img/SENAI.png" />
+      <img src="./img/SENAI.webp" loading="lazy"/>
       <div>
         <p>Microsoft AZ-900</p>
         <p style="font-size:18px; font-weight:100;">2023</p>
@@ -87,7 +87,7 @@ function showContent(tipoCurso) {
         <a href="https://www.linkedin.com/in/arthur-moreira-ramos"><button class="btn">SAIBA MAIS</button></a>
     </div>
     <div class="livre2">
-      <img src="./img/SENAI.png" />
+      <img src="./img/SENAI.webp" loading="lazy"/>
       <div>
           <p>Microsoft AI-900</p>
           <p style="font-size:18px; font-weight:100;">2023</p>
@@ -95,7 +95,7 @@ function showContent(tipoCurso) {
           <a href="https://www.linkedin.com/in/arthur-moreira-ramos"><button class="btn">SAIBA MAIS</button></a>
     </div>
     <div class="livre3">
-      <img src="./img/SENAI.png" />
+      <img src="./img/SENAI.webp" loading="lazy"/>
         <div>
           <p>Google Cloud Foundations</p>
           <p style="font-size:18px; font-weight:100;">2023</p>
@@ -103,7 +103,7 @@ function showContent(tipoCurso) {
           <a href="https://www.linkedin.com/in/arthur-moreira-ramos"><button class="btn">SAIBA MAIS</button></a>
       </div>
     <div class="livre4">
-      <img src="./img/SENAI.png" />
+      <img src="./img/SENAI.webp" loading="lazy"/>
         <div>
           <p>AWS Cloud Foundations</p>
           <p style="font-size:18px; font-weight:100;">2024</p>
@@ -111,7 +111,7 @@ function showContent(tipoCurso) {
           <a href="https://www.linkedin.com/in/arthur-moreira-ramos"><button class="btn">SAIBA MAIS</button></a>
     </div>
     <div class="livre5">
-      <img src="./img/SENAI.png" />
+      <img src="./img/SENAI.webp" loading="lazy"/>
         <div>
           <p>Google Cloud Engineer</p>
           <p style="font-size:18px; font-weight:100;">2024</p>

@@ -24,7 +24,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
-  will-change: contents;
 }
 
 html,
@@ -70,8 +69,9 @@ header nav.center {
   font-weight: 600;
   font-size: 16px;
   display: inline-block;
-  transition: transform 0.3s ease;
   color: var(--texto2-cor);
+  transition: transform 0.3s ease;
+  will-change: contents;
 }
 
 .header-high a:hover {
@@ -90,8 +90,9 @@ header nav.center {
   padding: 0 20px;
   font-size: 16px;
   display: inline-block;
-  transition: transform 0.3s ease;
   color: var(--texto2-cor);
+  transition: transform 0.3s ease;
+  will-change: contents;
 }
 
 .header-down a:hover {
@@ -103,7 +104,7 @@ header nav.center {
 section.section-1 {
   width: 100%;
   height: 70%;
-  background-image: url("../img/background.png");
+  background-image: url("../img/background.webp");
   background-size: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -136,6 +137,7 @@ section.section-1 {
   color: var(--texto2-cor);
   display: inline-block;
   transition: transform 0.5s ease;
+  will-change: contents;
 }
 
 .section-1 a:hover {
@@ -226,6 +228,7 @@ section.section-2 {
   height: 45px;
   font-weight: 700;
   transition: transform 0.4s ease;
+  will-change: contents;
 }
 
 .certificacao1 button:hover {
@@ -292,6 +295,7 @@ section.section-2 {
   height: 45px;
   font-weight: 700;
   transition: transform 0.4s ease;
+  will-change: contents;
 }
 
 .certificacao2 button:hover {
