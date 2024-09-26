@@ -1,5 +1,4 @@
 /*second commit optimization*/
-
 @media (max-width: 1550px) {
   /* <------> Section 2 <------> */
 
@@ -42,9 +41,7 @@
     height: 35px;
   }
 }
-
 /* ---- FOOTER 1 ---- */
-
 @media (max-width: 1000px) {
   .footer .center .foot-all {
     padding-right: 0;

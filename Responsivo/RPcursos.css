@@ -1,5 +1,4 @@
 /*second commit optimization*/
-
 @media (max-width: 1050px) {
   .section-2 .right {
     padding: 0;
@@ -8,7 +7,6 @@
     text-align: center;
   }
 }
-
 @media (max-width: 970px) {
   .card-superior p {
     font-size: 18px;
@@ -33,7 +31,6 @@
     display: none;
   }
 }
-
 @media (max-width: 900px) {
   .section-2 .center {
     gap: 50px;
@@ -57,9 +54,7 @@
     max-width: 200px;
   }
 }
-
 /* ---- FOOTER 1 ---- */
-
 @media (max-width: 1000px) {
   .footer .center .foot-all {
     padding-right: 0;

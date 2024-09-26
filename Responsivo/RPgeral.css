@@ -1,5 +1,4 @@
 /*second commit optimization*/
-
 /* ----------------- SECTION 1 -----------------*/
 @media (max-width: 1550px) {
   .section-1 .text-section-1 h1 {
@@ -9,7 +8,6 @@
     font-size: 20px;
   }
 }
-
 @media (max-width: 1150px) {
   section.section-1 {
     background-size: 150%;
@@ -28,25 +26,21 @@
     font-size: 20px;
   }
 }
-
 @media (max-width: 1020px) {
   section.section-1 {
     background-size: 170%;
   }
 }
-
 @media (max-width: 900px) {
   section.section-1 {
     background-size: 180%;
   }
 }
-
 @media (max-width: 840px) {
   section.section-1 {
     background-size: 220%;
   }
 }
-
 @media (max-width: 700px) {
   section.section-1 {
     background-size: 300%;
@@ -58,14 +52,49 @@
     width: 80%;
   }
 }
+@media (max-width: 450px) {
+  html,
+  body {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+  }
+  .header-down {
+    position: -webkit-sticky; /* Suporte para Safari */
+    position: sticky;
+  }
+  .header-down a {
+    font-size: 15px;
+    padding: 10px;
+  }
+  section.section-1 {
+    background-size: 340%;
+    height: 750px;
+  }
+  .section-1 .text-section-1 {
+    width: 100%;
+  }
+  .section-1 .text-section-1 h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+  }
+  .section-1 .center-certificados {
+    width: 100%;
+  }
+  .section-1 .text-section-1 a {
+    font-size: 0;
+  }
+  .section-1 .text-section-1 i {
+    font-size: 30px;
+  }
+}
 /* ----------------- FOOTER -----------------*/
-
 @media (max-width: 1400px) {
   .footer .center .footer-left {
     width: 1420px;
   }
 }
-
 @media (max-width: 1085px) {
   .footer .center .footer-left {
     width: 2120px;
@@ -76,7 +105,6 @@
     width: 1220px;
   }
 }
-
 @media (max-width: 900px) {
   .footer {
     background-color: var(--footer-cor);
@@ -118,5 +146,24 @@
   }
   .footer2 .center p {
     font-size: 15px;
+  }
+}
+@media (max-width: 450px) {
+  .footer {
+    height: 500px;
+  }
+  .footer .center {
+    width: 100%;
+    padding: 40px;
+    margin: 0;
+  }
+  .footer .center .foot-all {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: baseline;
+    padding-left: 40px;
   }
 }
