@@ -1,6 +1,6 @@
 INFORMAÇÕES DO PROJETO - 
 
-Duração: +- 1 Mês.
+Duração: +2 Mês.
 
 Linguagens Utilizadas: HTML, Css, JavaScript.  
 
