@@ -1,3 +1,5 @@
+/*second commit optimization*/
+
 const inicio = document.querySelector(".inicio");
 const section1 = document.querySelector(".section-1");
 const irPara = document.querySelector(".text-animation-1");

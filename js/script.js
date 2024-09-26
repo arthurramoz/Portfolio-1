@@ -1,3 +1,5 @@
+/*second commit optimization*/
+
 const section2 = document.querySelector(".section-2");
 const section3 = document.querySelector(".section-3");
 const textAnimation = document.querySelector(".text-animation-1");

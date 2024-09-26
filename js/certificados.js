@@ -1,3 +1,5 @@
+/*second commit optimization*/
+
 const inicio = document.querySelector(".inicio");
 const certificacoes = document.querySelector(".certificacoes");
 const irPara = document.querySelector(".text-animation-1");
