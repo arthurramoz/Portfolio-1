@@ -41,16 +41,70 @@
     height: 35px;
   }
 }
-/* ---- FOOTER 1 ---- */
-@media (max-width: 1000px) {
-  .footer .center .foot-all {
-    padding-right: 0;
+@media (max-width: 450px) {
+  .header-down a {
+    font-size: 15px !important;
+    padding: 10px;
   }
-  .footer .center {
+  /* <------> Section 2 <------> */
+  section.section-2 {
+    min-height: 2200px;
+  }
+  .section-2 nav.center {
+    height: 100%;
+  }
+  .section-2 div {
+    max-height: 600px;
+  }
+  /* ---- CERTIFICACAO 1 ---- */
+  .section-2 .certificacao1 {
+    padding: 50px 0;
+    flex-direction: column;
+    text-align: center;
+  }
+  .certificacao1 img {
+    max-width: 420px;
+  }
+  .certificacao1 h1 {
+    font-size: 17px;
     width: 90%;
-    gap: 10px;
   }
-  .footer2 .center p {
+  .certificacao1 p {
+    font-size: 17px;
+    text-align: justify;
+    margin: 0 auto;
+    width: 90%;
+  }
+  .certificacao1 button {
     font-size: 15px;
+    height: 35px;
+    width: 35%;
+  }
+  /* ---- CERTIFICACAO 2 ---- */
+  .section-2 .certificacao2 {
+    padding: 50px 0;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .certificacao2 img {
+    max-width: 420px;
+  }
+  .certificacao2 h1 {
+    font-size: 18px;
+  }
+  .certificacao2 p {
+    font-size: 17px;
+    text-align: justify;
+    margin: 0 auto;
+    width: 90%;
+  }
+  .certificacao2 a {
+    text-align: center;
+  }
+  .certificacao2 button {
+    font-size: 15px;
+    height: 35px;
+    width: 35%;
+    text-align: center;
   }
 }

@@ -107,7 +107,7 @@
     padding: 10px;
   }
   .section-1 .text-section-1 h1 {
-    width: 75%;
+    width: 100%;
     font-size: 45px;
   }
 }
@@ -117,7 +117,7 @@
     height: 650px;
   }
   .section-1 .text-section-1 h1 {
-    width: 80%;
+    width: 100%;
     font-size: 40px;
   }
 }
@@ -182,7 +182,7 @@
 }
 @media (max-width: 450px) {
   .footer {
-    height: 500px;
+    height: 450px;
   }
   .footer .center {
     width: 100%;
@@ -200,9 +200,13 @@
   }
 }
 @media (max-width: 416px) {
+  .footer .center {
+    padding: 40px 10px;
+  }
   .footer .center .foot-all {
     padding-left: 0;
     align-items: center;
+    height: 0;
   }
   .footer2 {
     height: 120px;
